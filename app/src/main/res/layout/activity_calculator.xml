@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="center_vertical"
+        android:hint="Enter number 1"
+        android:paddingHorizontal="10dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="center_vertical"
+        android:hint="Enter number 2"
+        android:paddingHorizontal="10dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="center"
+        android:hint="Result"
+        android:paddingHorizontal="10dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Add"></Button>
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Sub"></Button>
+
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Mul"></Button>
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Div"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
